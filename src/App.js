@@ -5,7 +5,7 @@ import GlobalStyle from './styles/global.js';
 import {Containe , Content} from './styles';
 
 import Upload from "./components/Upload";
-//import FileList from "./components/FileList";
+import FileList from "./components/FileList";
 
 function App() {
   //const { uploadedFiles } = '';
@@ -14,6 +14,7 @@ function App() {
        <GlobalStyle />
       <Content>
       <Upload />
+      <FileList />
 
       </Content>
     </Containe>
